@@ -12,12 +12,27 @@ export default function ExerciseListItem({ item }){
     </View>
     )
   }
+
+  
+
 const styles = StyleSheet.create({
   exerciseContainer: {
     backgroundColor: '#fff',
     padding: 10,
     borderRadius: 10,
     gap: 5,
+    marginHorizontal: 3,
+
+    //shadow
+    shadowColor: "#997ec7",
+    shadowOffset: {
+	  width: 0,
+	  height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+
+    elevation: 5,
   },
   exerciseName: {
     fontSize: 20,
